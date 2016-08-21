@@ -1,7 +1,7 @@
 {
-    "name": "rio2016",
+    "name": "riomc",
     "version": "1.0.0",
-    "description": "Quickly view the Rio2016 medal count in your terminal",
+    "description": "Rio2016 Medal Count in your terminal",
     "keywords": [
         "rio",
         "2016",
@@ -9,14 +9,14 @@
     ],
     "author": "Prashant Palikhe <prashpal09@gmail.com>",
     "preferGlobal": true,
-    "homepage": "https://github.com/prashantpalikhe/Rio2016",
-    "repository": "prashantpalikhe/Rio2016",
+    "homepage": "https://github.com/prashantpalikhe/RioMC",
+    "repository": "prashantpalikhe/RioMC",
     "license": "MIT",
     "dependencies": {
         "easy-table": "^1.0.0",
         "minimist": "^1.2.0"
     },
     "bin": {
-        "rio2016": "./bin/rio2016"
+        "riomc": "./bin/riomc"
     }
 }

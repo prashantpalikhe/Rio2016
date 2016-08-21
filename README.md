@@ -1,19 +1,19 @@
-# Rio2016
+# RioMC
 
-Quickly view the Rio2016 medal count in your terminal.
+Rio2016 Medal Count in your terminal.
 
 ## Installation
 
 via npm
 
 ```
-$ npm install rio2016 -g
+$ npm install riomc -g
 ```
 
 ## Usage
 
 ```
-Usage: rio2016 [options]
+Usage: riomc [options]
 
 Options:
 
