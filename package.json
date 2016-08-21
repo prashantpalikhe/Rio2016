@@ -1,16 +1,22 @@
 {
-  "name": "rio2016",
-  "version": "1.0.0",
-  "description": "Quickly view the Rio2016 medal count in your terminal",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["rio", "2016", "rio2016", "nodejs", "npm"],
-  "author": "Prashant Palikhe <prashpal09@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "easy-table": "^1.0.0",
-    "minimist": "^1.2.0"
-  }
+    "name": "rio2016",
+    "version": "1.0.0",
+    "description": "Quickly view the Rio2016 medal count in your terminal",
+    "keywords": [
+        "rio",
+        "2016",
+        "rio2016"
+    ],
+    "author": "Prashant Palikhe <prashpal09@gmail.com>",
+    "preferGlobal": true,
+    "homepage": "https://github.com/prashantpalikhe/Rio2016",
+    "repository": "prashantpalikhe/Rio2016",
+    "license": "MIT",
+    "dependencies": {
+        "easy-table": "^1.0.0",
+        "minimist": "^1.2.0"
+    },
+    "bin": {
+        "rio2016": "./bin/rio2016"
+    }
 }

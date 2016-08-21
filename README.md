@@ -13,13 +13,12 @@ $ npm install rio2016 -g
 ## Usage
 
 ```
-$ rio2016
-```
+Usage: rio2016 [options]
 
-Or, 
+Options:
 
-```
-$ rio2016 --count 5
+  --count                Limit the number of result
+
 ```
 
 ## License
